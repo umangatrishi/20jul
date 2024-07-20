@@ -1,0 +1,16 @@
+v#include <bits/stdc++.h>
+using namespace std;
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    double X,Y;
+	    cin>>X>>Y;
+	    if(Y<=(X+0.07*X))
+	    std::cout << "YES" << std::endl;
+	    else
+	    std::cout << "NO" << std::endl;
+	}
+
+}
