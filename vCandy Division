@@ -1,0 +1,16 @@
+v#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int N;
+	    cin>>N;
+	    if(N%3==0)
+	    std::cout << "Yes" << std::endl;
+	    else
+	    std::cout << "no" << std::endl;
+	}
+
+}
