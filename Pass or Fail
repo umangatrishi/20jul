@@ -1,0 +1,18 @@
+v#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int tq,cq,mm;
+	    cin>>tq>>cq>>mm;
+	    int ms=3*cq-(tq-cq);
+	    if (ms>=mm)
+	    std::cout << "pass" << std::endl;
+	    else
+	    std::cout << "fail" << std::endl;
+	}
+
+}
