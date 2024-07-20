@@ -1,0 +1,14 @@
+v#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int  t;
+	cin>>t;
+	while(t--){
+	    int K,X;
+	    cin>>K>>X;
+	    std::cout << 7*K-X<< std::endl;
+	}
+
+}
